@@ -179,6 +179,7 @@
     margin-bottom: 20px;
 }
 .we-are-gamer-text p{
+    font-family: work sans;
     font-size: 1rem;
     margin-bottom: 20px;
 }
@@ -198,8 +199,47 @@
 .we-are-gamer-text h3{
     font-family: work sans;
 }
-
-
+/* Online-gamer-funny-video */
+.online-games-funny-video{
+    max-height: 900px;
+    width: 100%;
+    background-color: #ddd2d8;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.online-games-funny-video h1{
+    font-family: work sans;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.funny-video{
+    background: linear-gradient(180deg,#ff42a5,rgb(119, 189, 216));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.online-games-funny-video p{
+    font-family: work sans;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.photo-colleage{
+    margin: 0px 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.photo-colleage-1,.photo-colleage-2,.photo-colleage-3,.photo-colleage-4{
+    max-width: 300px;
+    max-width: 400px;
+}
+.photo-colleage-1 img,.photo-colleage-2 img,.photo-colleage-3 img,.photo-colleage-4 img{
+    width: 100%;
+}
 @media screen and (max-width:1024px) {
     .header{
         height: 250px;
