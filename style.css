@@ -236,6 +236,7 @@
 .photo-colleage-1,.photo-colleage-2,.photo-colleage-3,.photo-colleage-4{
     max-width: 300px;
     max-width: 400px;
+    margin: 0px auto;
 }
 .photo-colleage-1 img,.photo-colleage-2 img,.photo-colleage-3 img,.photo-colleage-4 img{
     width: 100%;
@@ -260,8 +261,9 @@
         margin-bottom: 30px;
     }
     .nv-part-2{
-        max-height: 100px;
+        max-height:150px;
         width: 50vw;
+        overflow: hidden;
     }
     /* play-l-goat */
     .play-l-goat{
@@ -309,8 +311,10 @@
     }
     /* we-are-gamer section */
     .we-are-gamer{
+        background-color: white;
         flex-direction: column;
         margin-top: 50px;
+        margin-bottom: 50px;
     }
     .we-are-gamer-image{
         width: 70%;
@@ -327,5 +331,19 @@
         height: 5vh;
         width: 20vw;
     }
-
+    .online-games-funny-video{
+        max-height: 100%;
+        background-color: white;
+    }
+    .photo-colleage{
+        flex-direction: column;
+        margin: 50px 50px;
+    }
+    .online-games-funny-video h1{
+        margin: 0px 50px;
+        margin-bottom: 30px;
+    }
+    .online-games-funny-video p{
+        margin: 0px 50px;
+    }
 }
