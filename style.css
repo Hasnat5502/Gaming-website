@@ -268,5 +268,24 @@
         width: 70%;
     }
     /* we-are-gamer section */
-    
+    .we-are-gamer{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .we-are-gamer-image{
+        width: 70%;
+        margin-left: 0px;
+    }
+    .we-are-gamer-text{
+        width: 70%;
+        height: 100%;
+        margin-right: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .know-morw-btn button{
+        height: 5vh;
+        width: 20vw;
+    }
+
 }
